@@ -1,0 +1,510 @@
+@media screen and (min-width: 475px) {
+    .b{
+   background-color: red;
+        width: 475px;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .container-fluid{
+        width: 640px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .b{
+        width: 768px;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .b{
+        width: 1024px;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    .b{
+        width: 1280px;
+    }
+  }
+@font-face {
+    font-family: naruto;
+    src: url(njnaruto.ttf);
+  }
+@font-face {
+    font-family: boruto;
+    src: url(Boruto.ttf);
+}
+#navbarNav{
+    margin-right: 40px;
+}
+.nav-link{
+    margin-right: 70px;
+    font-family: naruto;
+    font-size: 40px;
+}
+.b{
+    background-color: #2f3030;
+}
+.text{
+    position: absolute;
+  top: 20%;
+  left: 15px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: naruto;
+  font-size: 100px;
+  letter-spacing: 1rem;
+}
+.n{
+    color: #ff7700;
+}
+.bg{
+    opacity: 0.6;
+    margin-bottom: 5%;
+}
+.par{
+    font-size: 25px;
+}
+.st{
+    color: #ff7700;
+    font-weight: 700;
+    font-family: naruto;
+    letter-spacing: 0.1rem;
+}
+.st1{
+    color:#0985e3;
+    font-weight: 700;
+    font-family: naruto;
+    letter-spacing: 0.1rem;
+}
+.nar1{
+    width: 25%;
+    height: 55%;
+    position: absolute;
+    margin-left: 15%;
+   
+}
+.hsn{
+    margin-top: 80px;
+    font-family: naruto;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+.p2{
+    color: white;
+   font-size: 25px;
+}
+.h1f2{
+    margin-top: 10%;
+    text-align: start;
+    font-size: 90px;
+    margin-bottom: 90px;
+}
+.bt{
+    font-family: naruto;
+    color: #ff0000;
+}
+.nav-item .active{
+font-weight: 700;
+background-color: #ff7700;
+border: 1px solid black;
+border-radius: 30px;
+box-shadow: 2px 2px 3px;
+
+}
+
+.fa-copyright{
+    font-size: 30px;
+}
+.cnt{
+margin-top: 20%;
+text-align: center;
+margin-bottom: -20%;
+}
+.frm{
+    margin-top: -10px;
+    text-align: start;
+    position: absolute;
+    top: 307%;
+    justify-content: space-evenly;
+    color: white;
+    width:500px;
+    margin-left: 15%;
+}
+
+.textr{
+    background-color: #ff7700;
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+}
+.btn1{
+    font-family: naruto;
+    background-color: #ff7700;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 2px 2px 3px;
+}
+.copy{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.ft{
+    margin-bottom: -10%;
+}
+.form-label{
+    font-size: 20px;
+    font-family: naruto;
+    color: white;
+}
+.strpc{
+    position: absolute;
+    margin-top: 15px;
+    left: 73%;
+}
+.pst{
+    font-size: 25px;
+    margin-right: 30%;
+}
+.h1f1{
+    text-align: start;
+    font-size: 80px;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+.st12{
+    color: #2d8052;
+    font-family: naruto;
+}
+.strpc1{
+    margin-top: 10px;
+    position: absolute;
+    right: 74%;
+}
+.pst1{
+    margin-left: 27%;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+.strpc2{
+    margin-top: 20px;
+    position: absolute;
+    left: 70%;
+}
+.pst3{
+    margin-right: 30%;
+}
+.pst4{
+    margin-left: 30%;
+}
+.strpc3{
+    margin-top: 20px;
+    position: absolute;
+    right: 70%;
+}
+.strpc4{
+    margin-top: 20px;
+    position: absolute;
+    left: 70%;
+}
+.pst5{
+    margin-right: 30%;
+}
+.tag{
+    font-size: 35px;
+}
+.frm1{
+    margin-top: -90px;
+    text-align: start;
+    position: absolute;
+    top: 800%;
+    justify-content: space-evenly;
+    color: white;
+    width:500px;
+    margin-left: 15%;
+}
+
+.item{
+    margin-left: 60px;
+    margin-right: 50px;
+    border: 2px solid #ff7700;
+    box-shadow: 2px 2px 4px black;
+    padding-bottom: 2%;
+    padding-top: 30px;
+}
+.price{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-right: 20px;
+    text-align: end;
+}
+.item-list{
+    margin-top: 40px;
+    margin-right: 50px;
+    gap: 20px;
+}
+.item1{
+    border: 2px solid #ff7700;
+    box-shadow: 2px 2px 4px black;
+    padding-bottom: 2%;
+    padding-top: 30px;
+}
+
+
+.item {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.size{
+    margin-top: 20px;
+    justify-content: center;
+}
+.form-check{
+    margin-right: 20px;
+}
+.co{
+margin-left: 43%;
+  justify-self: center;
+   margin-bottom: 50px;
+}
+.ab{
+    font-family: naruto;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #ff7700;
+}
+.abt{
+    color: #ff7700;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: naruto;
+    font-size: 40px
+}
+.ti{
+    font-size: 40px;
+    font-weight: 700;
+}
+.br{
+    
+    color: #0a97cf;
+    font-family: boruto;
+    font-size: 70px;
+}
+.br2{
+    font-family: boruto;
+    color: #0a97cf;
+}
+.nav-item .active1{
+    font-weight: 700;
+    background-color: #0a97cf;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px;
+    
+    }
+    .card-text{
+        padding-left: 20px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .card-body{
+        color: white;
+        background-color: #ff7700;
+        height: 200px;
+    }
+    .card-body1{
+        padding-top: 15px;
+        padding-left: 10px;
+        color: white;
+        background-color: #5c19e3;
+        height: 200px;
+    }
+    .card-body1 p{
+    color: white;
+     padding-top: 22px;
+    }
+    .card-body2 p{
+        color: black;
+        padding-top: 43px;
+       }
+    .card-body2{
+        padding-top: 15px;
+        padding-left: 10px;
+        color: black;
+        background-color: #e0cf0b;
+        height: 200px;
+    }
+   .card p{
+       
+        font-size: 30px;
+        display: inline-block;
+    }
+    .form-label1{
+  color: #0a97cf;
+  font-size: 30px;
+  font-family: boruto;
+    }
+   
+.hhh{
+    color: #0a97cf;
+    font-size: 50px;
+    font-family: boruto;
+      }
+.form-label{
+color: #ff7700;
+font-size: 30px;
+font-family: naruto;
+}
+.hh{
+    padding-top: 30px;
+    padding-bottom: 30px;
+ color: #ff7700;
+font-size: 40px;
+font-family: naruto;
+}
+#exampleInputEmail1{
+    width: 500px;
+}
+#floatingTextarea2{
+    width: 500px;
+}
+.conc{
+    padding: 30px 0 30px 0;
+    color: white;
+    border: 2px solid  #ff7700;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px black;
+    
+}
+.frc{
+    width: 500px;
+}
+.social, .social1, .social2, .social3{
+    font-size: 40px;
+    padding-left: 20px;
+    text-decoration: none;
+    border: 2px solid white;
+    width: 570px;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px black;
+}
+.ig{
+    padding-right: 20px;
+    width: 100px;
+    height: 80px;
+}
+.social{
+    color: #ff7700;
+    font-weight: 800;
+    border: 2px solid #ff7700;
+}
+.social1{
+    color: #ff0000;
+    font-weight: 800;
+    border: 2px solid red;
+    
+}
+.sp{
+    color: white;
+}
+.sp1{
+color: #5c19e3;
+}
+.social2{
+    font-weight: 800;
+    color: white;
+    border: 2px solid #5c19e3;
+}
+.social3{
+    color: #ff0000;
+    font-weight: 800;
+    border: 2px solid red;
+}
+.copy1{
+    color: white;
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+#emailHelp{
+    color: white;
+}
+@media (min-width: 575.98px) {
+    .navbar-brand img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .h1f {
+        font-size: 1.5rem;
+    }
+
+    .container-sm {
+        padding: 0.5rem;
+    }
+
+    .form-control {
+        font-size: 0.875rem;
+    }
+
+    .social img {
+        width: 60px;
+        height: 50px;
+    }
+}
+@media (min-width: 576px) {
+    .h1f {
+        font-size: 2rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .navbar {
+        padding: 1.5rem;
+    }
+
+    .social img {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar {
+        padding: 2rem;
+    }
+
+    .social img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .navbar {
+        padding: 2.5rem;
+    }
+}
+.con{
+    color: white;
+}
+.igc{
+    width: 200px;
+    height: 200px;
+}
+.row{
+    width: 70%;
+}
+.h1f4{
+    padding-top: 70px;
+    font-size: 80px;
+}
